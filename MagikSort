@@ -41,7 +41,7 @@ end
 
 
 
-numeromagico = (maior[2] - menor[2])/#numeros
+numeromagico = (maior[2] - menor[2])/#numeros*3
 
 
 for i = 1, #reduzido do
