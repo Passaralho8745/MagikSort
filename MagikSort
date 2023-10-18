@@ -42,7 +42,7 @@ end
 
 
 numeromagico = (maior[2] - menor[2])/#numeros*3
-
+numeromagico = numeromagico == 0 and 1 or numeromagico
 
 for i = 1, #reduzido do
     if separados[math.floor(reduzido[i]/numeromagico)] then
